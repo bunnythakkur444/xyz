@@ -14,6 +14,8 @@ const addTodo = async (req, res, next) => {
 		message: 'Todo added successfully',
 	});
 	next();
+
+	_(doc);
 };
 
 // * module export
